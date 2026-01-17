@@ -57,7 +57,7 @@
 
 #topHeader {
     position:fixed;
-    height:8vh;
+    height:9vh;
     width:100vw;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -71,4 +71,11 @@
 #mBody {
     margin-top:12dvh;
     padding-left:1dvw;
+    display:flex;
+    align-items: center;
+}
+
+#mheadImg {
+    width:90vw;
+
 }
