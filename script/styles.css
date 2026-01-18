@@ -46,7 +46,14 @@
     font-family: "Modak", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size:8dvh;
+    font-size:10dvh;
+}
+
+.h2 {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:7.5dvh;
 }
 
 #main {
@@ -69,13 +76,22 @@
 }
 
 #mBody {
-    margin-top:12dvh;
-    padding-left:1dvw;
+    margin-top:9vh;
     display:flex;
     align-items: center;
+    margin-left:0;
 }
 
 #mheadImg {
-    width:90vw;
-
+    width:100vw;
+    object-fit: cover;
+    height:30vh;
+    margin:0;
+    background-image: url('../res/img/marston.jpeg');
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    color:#fff6f6;
+    display:grid; 
+    place-items: center;
 }
