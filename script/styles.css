@@ -83,10 +83,11 @@
     display:flex;
     align-items: center;
     margin-left:0;
+    flex-direction: column;
 }
 
 #mheadImg {
-    width:100vw;
+    width:96vw;
     object-fit: cover;
     height:30vh;
     margin:0;
@@ -108,4 +109,9 @@
     padding-left:1vw;
     padding-right:1vw;
     padding-bottom:1vw;
+}
+
+a {
+    color: inherit; /* Inherits the color of the parent element */
+    text-decoration: none; /* Removes the underline */
 }
