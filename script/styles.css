@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    border-radius:20px;
 }
 
 .space-mono-regular {
@@ -33,6 +34,7 @@
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
+    font-size:3vh;
 }
 
 .p1 {
@@ -57,15 +59,15 @@
 }
 
 #main {
-    display:grid;
+    display:flex;
     background-color: #ce98ff;
-    margin:0;
+    flex-direction: column;
 }
 
 #topHeader {
     position:fixed;
     height:9vh;
-    width:100vw;
+    width:96vw;
     padding-left: 1vw;
     padding-right: 1vw;
     padding-top: 1vh;
@@ -73,6 +75,7 @@
     background-color: #fff6f6;
     color: #4f009f;
     margin:0;
+    display:flex;
 }
 
 #mBody {
@@ -92,6 +95,17 @@
     background-position: center;
     text-align: center;
     color:#fff6f6;
-    display:grid; 
+    display:flex; 
     place-items: center;
+}
+
+.social {
+    width:6vh;
+}
+
+#big{
+    background-color: #fff6f6;
+    padding-left:1vw;
+    padding-right:1vw;
+    padding-bottom:1vw;
 }
