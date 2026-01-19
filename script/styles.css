@@ -30,6 +30,13 @@
     font-style: italic;
 }
 
+.p3 {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size:2.5vh;
+}
+
 .p2 {
     font-family: "Space Mono", monospace;
     font-weight: 400;
@@ -75,7 +82,7 @@
     color: #4f009f;
     margin:0;
     display:grid;
-    grid-template-columns: repeat(8,1fr);
+    grid-template-columns: repeat(9,1fr);
     grid-template-rows: 1;
     gap:1vw;
 }
@@ -86,7 +93,7 @@
     align-items: center;
     margin-left:0;
     gap: 1vh;
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(7,1fr);
     /* grid-auto-rows: minmax(1vh, 50vh) */
 }
 
@@ -125,11 +132,15 @@
 .textBlock {
     display:grid;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
     gap: 1vw;
     margin-left: 1vw; 
 }
 
 #pluh {
-    grid-row:2/4;
+    display:grid;
+    grid-row:2/8;
+    grid-auto-rows: min-content;
+    gap:5vh;
+    
 }
