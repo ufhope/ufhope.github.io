@@ -34,35 +34,35 @@
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size:2.5vh;
+    font-size:1vw;
 }
 
 .p2 {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size:3vh;
+    font-size:1.5vw;
 }
 
 .p1 {
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-style: normal;
-    font-size:5vh;
+    font-size:2.5vw;
 }
 
 .h {
     font-family: "Modak", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size:10dvh;
+    font-size:5vw;
 }
 
 .h2 {
     font-family: "Modak", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size:7.5dvh;
+    font-size:3.5vw;
 }
 
 #main {
@@ -113,7 +113,7 @@
 }
 
 .social {
-    width:6vh;
+    width:6vw;
 }
 
 #big{
