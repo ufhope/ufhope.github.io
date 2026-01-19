@@ -74,12 +74,10 @@
     position:fixed;
     height:9vh;
     width:96vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    background-color: #fff6f6;
-    color: #4f009f;
+    background-color:#4f009f;
+    color:#fff6f6;
     margin:0;
     display:grid;
     grid-template-columns: repeat(9,1fr);
