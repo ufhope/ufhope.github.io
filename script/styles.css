@@ -65,6 +65,27 @@
     font-size:3.5vw;
 }
 
+.v {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:64px;
+}
+
+.v2 {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size:47px;
+}
+
+.v3 {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+}
+
 #main {
     display:grid;
     background-color: #ce98ff;
@@ -78,8 +99,8 @@
     padding-right: 1vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    background-color: #fff6f6;
-    color: #4f009f;
+    background-color: #4f009f;
+    color: #fff6f6;
     margin:0;
     display:grid;
     grid-template-columns: repeat(9,1fr);
@@ -108,6 +129,7 @@
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(9,1fr);
     line-height:3vw;
+    gap:1vh;
 }
 
 .social {
