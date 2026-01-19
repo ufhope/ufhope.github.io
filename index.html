@@ -2,19 +2,18 @@
 <html lang="en">
     <head>
         <link href="script/styles.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="res/img/logo.png">
         <!-- <script src="summernote/summernote.min.js"></script> -->
     </head>
     <body id="main">
         <div id="big">
             <div class="p1" id="topHeader">
-                <a href="index.html" style="margin-right:auto; margin-left:1vw;">HOPE PARTY</a>
-                
-                <div style="margin-left:auto; display:flex; justify-content: space-evenly; width:50vw; box-sizing:content-box; margin-right:0;">
-                    <a href="about.html" style="margin:auto;" class="p2">About Us</a>
-                    <a href="officers.html" style="margin:auto;" class="p2">Our Officers</a>
-                    <a href="platform.html" style="margin:auto;" class="p2">Our Platform</a>
-                    <a href="contact.html" style="margin:auto;" class="p2">Contact Us</a>
-                </div>
+                <a href="index.html" style="margin-right:auto; margin-left:1vw; grid-column: 1/4;">HOPE PARTY</a>
+                <a href="about.html" style="margin:auto; grid-column: 5;" class="p2">About Us</a>
+                <a href="officers.html" style="margin:auto; grid-column: 6;" class="p2">Our Officers</a>
+                <a href="platform.html" style="margin:auto; grid-column: 7;" class="p2">Our Platform</a>
+                <a href="contact.html" style="margin:auto; grid-column: 8;" class="p2">Contact Us</a>
+
             </div>
             <div id="mBody">
                 <div id="mheadImg">
@@ -30,19 +29,27 @@
                     </div>
                 </div>
                 <br>
-                <div style="margin-right:auto; margin-left: 1vw;" class="p1">
-                    WELCOME TO HOPE PARTY!
-                </div>
-                <div style="margin-right:auto; margin-left: 1vw;" class="p2">
-                    WELCOME TO HOPE PARTY!
+                <div id="pluh">
+                    <div class="textBlock">
+                        <div style="margin-right:auto; grid-column: 1/4;" class="p1">
+                            WELCOME TO HOPE PARTY!
+                        </div>
+                        <img src="res/img/logo.png" style="grid-column:5; max-width:20vw; grid-row:1/4;">
+                        <div style="margin-right:auto; grid-column: 1/5; grid-row:2;" class="p2">
+                            We are a new UF Student Government party established by
+                            concerned students for the purpose of improving student life 
+                            through empowering student's voices, especially those
+                            under- or unrepresented by the current one-party system
+                            under Vision Party.
+                        </div>
+                        <a href="about.html" style="grid-column:1/4; grid-row:3;" class="p2">Learn more about us here!</a>
+                    </div>
                 </div>
             </div>
-
         </div>
-        <div style="position: absolute; left: 0; right: 0; bottom:1vh; margin-inline: auto; width: fit-content;">
             <div style="display:flex;">
-                <p style="margin:auto;" class="p2">Find us at&nbsp;</p>
-                <a href="https://www.instagram.com/uf.hopeparty/">
+                <p style="margin:auto;margin-right:0;"  class="p2">Find us on&nbsp;</p>
+                <a href="https://www.instagram.com/uf.hopeparty/" style="margin:auto; margin-left:0;">
                     <img src="res/img/insta.png" class="social">
                 </a>
                 <!-- <a href="https://www.instagram.com/uf.hopeparty/">
@@ -53,6 +60,7 @@
                 </a> -->
             </div>
         </div>
+
     </body>
 
 </html>
