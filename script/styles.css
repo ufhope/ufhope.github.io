@@ -94,21 +94,17 @@
 #topHeader {
     position:fixed;
     height:9vh;
-    width:96vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
-<<<<<<< HEAD
-    background-color: #4f009f;
-    color: #fff6f6;
-=======
     background-color:#4f009f;
     color:#fff6f6;
->>>>>>> 4a5303d21a1c3a80464af57dc48e446d6f181769
     margin:0;
     display:grid;
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: 1;
     gap:1vw;
+    width:stretch;
+    margin-right:0.5vw;
 }
 
 #mBody {
@@ -116,6 +112,9 @@
     display:grid;
     align-items: center;
     margin-left:0;
+    justify-items:center;
+    margin-left:1vw;
+    margin-right:1vw;
 }
 
 #mheadImg {
@@ -140,11 +139,12 @@
 }
 
 #big{
+    width:stretch;
+    justify-self:center;
     background-color: #fff6f6;
-    padding-left:1vw;
-    padding-right:1vw;
     padding-bottom:1vw;
-    margin-bottom:10vh;
+    margin-bottom:5vh;
+    margin:0;
 }
 
 #topHeader > a{
