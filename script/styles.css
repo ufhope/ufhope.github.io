@@ -95,12 +95,15 @@
     position:fixed;
     height:9vh;
     width:96vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
+<<<<<<< HEAD
     background-color: #4f009f;
     color: #fff6f6;
+=======
+    background-color:#4f009f;
+    color:#fff6f6;
+>>>>>>> 4a5303d21a1c3a80464af57dc48e446d6f181769
     margin:0;
     display:grid;
     grid-template-columns: repeat(9,1fr);
