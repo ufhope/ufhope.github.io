@@ -92,7 +92,7 @@
 }
 
 #topHeader {
-    position:fixed;
+    position:sticky;
     height:9vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -103,12 +103,11 @@
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: 1;
     gap:1vw;
-    width:stretch;
-    margin-right:0.5vw;
+    width:auto;
+    top:0;
 }
 
 #mBody {
-    margin-top:9vh;
     display:grid;
     align-items: center;
     margin-left:0;
@@ -139,12 +138,13 @@
 }
 
 #big{
-    width:stretch;
+    width:auto;
     justify-self:center;
     background-color: #fff6f6;
     padding-bottom:1vw;
     margin-bottom:5vh;
     margin:0;
+    display:grid;
 }
 
 #topHeader > a{
