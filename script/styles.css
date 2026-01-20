@@ -93,7 +93,8 @@
 
 #topHeader {
     position:sticky;
-    height:9vh;
+    min-height:fit-content;
+    max-height:8vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
     background-color:#4f009f;
@@ -161,9 +162,29 @@
     margin-left: 1vw; 
 }
 
+.textBlockB {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    column-gap: 2.5vw;
+    row-gap:0;
+    margin-left: 1vw; 
+}
+
 #pluh {
     display:grid;
     grid-auto-rows: min-content;
     gap:5vh;
     
+}
+
+.genPhoto {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+#mContent {
+    display:grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 1vh;
 }
