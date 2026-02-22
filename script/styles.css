@@ -111,6 +111,11 @@
     gap:1vw;
     width:auto;
     top:0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
 }
 
 #mBody {
@@ -124,7 +129,7 @@
 
 #mheadImg {
     display:grid;
-    width:96vw;
+    width:100%;
     object-fit: cover;
     height:30vh;
     margin:0;
@@ -136,6 +141,10 @@
     grid-template-rows: repeat(9,1fr);
     line-height:3vw;
     gap:1vh;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px
+    border-bottom-right-radius: 20px;
 }
 
 .social {
@@ -143,7 +152,7 @@
 }
 
 #big{
-    width:auto;
+    width:95%;
     justify-self:center;
     background-color: #fff6f6;
     padding-bottom:1vw;
