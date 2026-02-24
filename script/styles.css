@@ -115,6 +115,8 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    padding-left:1vw;
+    padding-right:1vw;
 }
 
 #mBody {
@@ -122,8 +124,8 @@
     align-items: center;
     margin-left:0;
     justify-items:center;
-    margin-left:1vw;
-    margin-right:1vw;
+    margin-left:2vw;
+    margin-right:2vw;
 }
 
 #mheadImg {
@@ -170,7 +172,7 @@
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(4,1fr);
     column-gap: 2.5vw;
-    row-gap:1vh;
+    row-gap:0.5aavh;
 }
 
 .textBlockB {
