@@ -178,7 +178,7 @@
 .textBlockB {
     display:grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(6,auto);
     column-gap: 2.5vw;
     row-gap:0;
     margin-left: 1vw; 
