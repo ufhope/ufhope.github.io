@@ -116,7 +116,6 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
-}
 
 #mBody {
     display:grid;
@@ -143,7 +142,7 @@
     gap:1vh;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    border-bottom-left-radius: 20px
+    border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
