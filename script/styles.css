@@ -227,9 +227,9 @@
     .p3 { font-size: 14px; }
     .h2 { font-size: 28px; }
 
-    .v { font-size: 80px; }
-    .v2 { font-size: 45px; }
-    .v3 { font-size: 30px; }
+    .v { font-size: 70px; }
+    .v2 { font-size: 35px; }
+    .v3 { font-size: 14px; }
 
     #topHeader {
         grid-template-columns: 1fr;
