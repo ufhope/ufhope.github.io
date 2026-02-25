@@ -274,8 +274,12 @@
     }
 
     #topHeader > a:first-child {
-        font-size: 28px;
-        margin-bottom: 10px;
-    }
+    font-size: 18px !important;
+    line-height: 1.2;
+}
+
+#topHeader > a {
+    font-size: 14px !important;
+}
 
 }
