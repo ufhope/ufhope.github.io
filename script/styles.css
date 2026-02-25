@@ -274,12 +274,19 @@
     }
 
     #topHeader > a:first-child {
-    font-size: 18px !important;
-    line-height: 1.2;
-}
+        font-size: 18px !important;
+        line-height: 1.2;
+    }   
+    
+    #mheadImg {
+        height: 30vh !important;
+        aspect-ratio: 16 / 6;
+        background-size: cover;
+        background-position: center;
+    }
 
-#topHeader > a {
-    font-size: 14px !important;
-}
+    #topHeader > a {
+        font-size: 14px !important;
+    }
 
 }
