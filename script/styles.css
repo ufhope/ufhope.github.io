@@ -3,6 +3,9 @@
 
 * {
     box-sizing: border-box;
+}
+
+.card, #big, #topHeader, #mheadImg {
     border-radius:20px;
 }
 
@@ -146,6 +149,7 @@
     border-top-right-radius: 0;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    
 }
 
 .social {
@@ -290,3 +294,4 @@
     }
 
 }
+
