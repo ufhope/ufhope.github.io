@@ -41,9 +41,11 @@
     border-radius:25%;
     border:2px;
     border-color:#fff6f6;
+    margin-right:auto;
     float:right;
     width:10vw;
     height:10vw;
+    top:9vw;
 }
 
 .p3 {
@@ -115,7 +117,7 @@
 #topHeader {
     position:sticky;
     min-height:fit-content;
-    max-height:8vw;
+    max-height:8vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
     background-color:#4f009f;
