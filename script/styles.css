@@ -39,6 +39,7 @@
     grid-template-columns: repeat(3,1fr);
     background-color: #ce98ff;
     border-radius:25%;
+    border-style:solid;
     border:20px;
     border-color:#fff6f6;
     right:0;
@@ -46,6 +47,8 @@
     width:20vw;
     height:20vw;
     top:9vw;
+    overflow:hidden;
+    margin-right:1vw;
 }
 
 .p3 {
