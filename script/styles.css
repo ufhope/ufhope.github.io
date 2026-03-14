@@ -33,6 +33,11 @@
     font-style: italic;
 }
 
+#AccessMenu {
+    display:grid;
+    background-color: #ce98ff;
+}
+
 .p3 {
     font-family: "Space Mono", monospace;
     font-weight: 400;
