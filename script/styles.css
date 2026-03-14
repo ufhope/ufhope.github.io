@@ -39,12 +39,12 @@
     grid-template-columns: repeat(3,1fr);
     background-color: #ce98ff;
     border-radius:25%;
-    border:2px;
+    border:20px;
     border-color:#fff6f6;
-    margin-left:auto;
+    right:0;
     float:right;
-    width:10vw;
-    height:10vw;
+    width:20vw;
+    height:20vw;
     top:9vw;
 }
 
