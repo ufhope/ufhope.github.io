@@ -109,7 +109,7 @@
     color:#fff6f6;
     margin:0;
     display:grid;
-    grid-template-columns: repeat(9,1fr);
+    grid-template-columns: repeat(10,1fr);
     grid-template-rows: 1;
     gap:1vw;
     width:auto;
