@@ -34,9 +34,14 @@
 }
 
 #AccessMenu {
+    position:sticky;
     display:grid;
     grid-template-columns: repeat(3,1fr);
     background-color: #ce98ff;
+    border-radius:25%;
+    border:2px;
+    border-color:#fff6f6;
+    float:right;
 }
 
 .p3 {
