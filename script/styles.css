@@ -34,8 +34,8 @@
 }
 
 #AccessMenu {
-    position:sticky;
-    top: 0;
+    position:fixed;
+    top: inherit;
     grid-template-columns: repeat(3,1fr);
     background-color: #ce98ff;
     border-radius:25%;
