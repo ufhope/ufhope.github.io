@@ -49,6 +49,7 @@
     overflow:hidden;
     margin-right:1vw;
     align-items: center;
+    flex-flow:row;
 }
 
 .p3 {
