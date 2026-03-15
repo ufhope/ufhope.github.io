@@ -36,7 +36,6 @@
 #AccessMenu {
     position:fixed;
     top: inherit;
-    grid-template-rows: repeat(3,1fr);
     background-color: #ce98ff;
     border-radius:25%;
     border-style:solid;
@@ -49,6 +48,7 @@
     top:9vw;
     overflow:hidden;
     margin-right:1vw;
+    align-items: center;
 }
 
 .p3 {
