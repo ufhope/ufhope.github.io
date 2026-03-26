@@ -18,14 +18,36 @@
     <body id="main">
         <div id="big">
              <div class="p1" id="topHeader">
-            <a href="/" style="margin:auto; margin-right:auto; margin-left:auto; grid-column: 1/3;">HOPE PARTY</a>
-            <a href="../about/" style="margin:auto; grid-column: 5;" class="p3">About Us</a>
-            <a href="../resources/" style="margin:auto; grid-column: 6;" class="p3">Resources</a>
-            <a href="../people/" style="margin:auto; grid-column: 7;" class="p3">Our People</a>
-            <a href="../platform/" style="margin:auto; grid-column: 8;" class="p3">Platform</a>
-            <a href="../contact/" style="margin:auto; grid-column: 9;" class="p3">Contact Us</a>
-            <a href="../calendar/" style="margin:auto; grid-column:10;" class="p3">Calendar</a>
-        </div>
+              <a href="/" style="grid-column: 1/3;">HOPE PARTY</a>
+            
+              <button id="navToggle"
+                      type="button"
+                      aria-label="Open navigation menu"
+                      aria-controls="mobileNav"
+                      aria-expanded="false"
+                      onclick="toggleMobileNav()"
+                      style="font-size:26px; padding:12px 14px; min-width:48px; min-height:48px;">
+                ☰
+              </button>
+            
+              <!-- Desktop links (CSS hides these on mobile) -->
+              <a href="/about/" style="margin:auto; grid-column: 5;" class="p3">About Us</a>
+              <a href="/resources/" style="margin:auto; grid-column: 6;" class="p3">Resources</a>
+              <a href="/people/" style="margin:auto; grid-column: 7;" class="p3">Our People</a>
+              <a href="/platform/" style="margin:auto; grid-column: 8;" class="p3">Platform</a>
+              <a href="/contact/" style="margin:auto; grid-column: 9;" class="p3">Contact Us</a>
+              <a href="/calendar/" style="margin:auto; grid-column: 10;" class="p3">Calendar</a>
+            
+              <!-- Mobile dropdown -->
+              <nav id="mobileNav" aria-label="Primary navigation">
+                <a href="/about/">About Us</a>
+                <a href="/resources/">Resources</a>
+                <a href="/people/">Our People</a>
+                <a href="/platform/">Platform</a>
+                <a href="/contact/">Contact Us</a>
+                <a href="/calendar/">Calendar</a>
+              </nav>
+            </div>
 
              <div id="mheadImg">
                  <div class="v" style="grid-column:2; grid-row:4;">HOPE</div>
