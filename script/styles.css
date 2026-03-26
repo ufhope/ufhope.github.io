@@ -397,4 +397,29 @@
   #mobileNav {
     grid-column: 1 / -1 !important;
   }
+
+ #mheadImg {
+    line-height: 1 !important;
+    gap: 2px !important;
+  }
+
+  #mheadImg .v {
+    line-height: 0.9;
+    margin: 0;
+  }
+
+  #mheadImg .v2 {
+    line-height: 0.95;
+    margin: 0;
+  }
+
+  #mheadImg .v3 {
+    line-height: 1.05;
+    margin: 0;
+  }
+
+  #mheadImg div {
+    margin: 0;
+    padding: 0;
+  }
 }
