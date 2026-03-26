@@ -283,6 +283,7 @@
 }
 
 @media (max-width: 768px) {
+  /* Global mobile tweaks */
   * {
     border-radius: 12px;
   }
@@ -304,14 +305,15 @@
     max-height: none;
     text-align: left;
     overflow: visible;
+    padding: 12px 12px;
   }
 
   #topHeader > a:first-child {
     grid-column: 1;
     justify-self: start;
     margin: 0 !important;
-    font-size: 18px !important;
-    line-height: 1.2;
+    font-size: 22px !important;
+    line-height: 1.1;
   }
 
   #topHeader > a.p3 {
@@ -322,7 +324,14 @@
     display: inline-flex;
     grid-column: 2;
     justify-self: end;
-    font-size: 18px;
+
+    font-size: 28px;
+    padding: 12px 14px;
+    min-width: 48px;
+    min-height: 48px;
+
+    align-items: center;
+    justify-content: center;
   }
 
   #mobileNav {
@@ -364,7 +373,7 @@
   .social {
     width: 40px;
   }
-    
+
   #big {
     width: 100%;
     border-radius: 0;
