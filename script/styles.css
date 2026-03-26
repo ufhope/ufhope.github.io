@@ -378,4 +378,23 @@
     width: 100%;
     border-radius: 0;
   }
+
+      #topHeader > * {
+    grid-column: 1 / -1 !important;
+    margin: 0 !important;
+  }
+
+  #topHeader > a:first-child {
+    grid-column: 1 !important;
+    justify-self: start !important;
+  }
+
+  #navToggle {
+    grid-column: 2 !important;
+    justify-self: end !important;
+  }
+
+  #mobileNav {
+    grid-column: 1 / -1 !important;
+  }
 }
